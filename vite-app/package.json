@@ -1,0 +1,27 @@
+{
+  "name": "quick-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "autoprefixer": "^10",
+    "axios": "^0.27.2",
+    "roboto-fontface": "*",
+    "vue": "^3.2.37",
+    "vue-axios": "^3.4.1",
+    "vuetify": "npm:@vuetify/nightly@next",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.2",
+    "vite": "^3.0.6",
+    "vue-cli-plugin-vuetify": "~2.5.1",
+    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
+  },
+  "type": "module"
+}
